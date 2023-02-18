@@ -1,0 +1,27 @@
+CREATE TABLE store_list (id INTEGER PRIMARY KEY,item TEXT,quantity INTEGER,aisle INTEGER,price INTEGER);
+
+INSERT INTO store_list VALUES (1,"Tee",15,7,200);
+INSERT INTO store_list VALUES (2,"Pants",20,1,120);
+INSERT INTO store_list VALUES (3,"Hoddies",12,3,150);
+INSERT INTO store_list VALUES (4,"Shoes",30,2,220);
+INSERT INTO store_list VALUES (5,"Trouser",9,4,330);
+INSERT INTO store_list VALUES (6,"Jacket",10,8,115);
+INSERT INTO store_list VALUES (7,"Kurthi",20,6,118);
+INSERT INTO store_list VALUES (8,"Tops",5,7,220);
+INSERT INtO store_list VALUES (9,"Hairband",6,11,118);
+INSERT INTO store_list VALUES (10,"Striped sweater",10,9,200);
+INSERT INTO store_list VALUES (11,"Trench coat",20,8,150);
+INSERT INTO store_list VALUES (12,"Sleek loafers",7,2,220);
+INSERT INTO store_list VALUES (13,"Leather jacket",4,8,212);
+INSERT INTO store_list VALUES (14,"Sweatshirt",19,7,312);
+INSERT INTO store_list VALUES (15,"shirt",12,3,110);
+
+SELECT * FROM store_list ;
+
+SELECT *FROM store_list WHERE price >300 ORDER BY price;
+
+SELECT SUM (price) FROM store_list;
+
+
+
+
